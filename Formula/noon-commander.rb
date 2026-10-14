@@ -3,13 +3,13 @@
 class NoonCommander < Formula
   desc "Terminal file manager focused on seamless local and SFTP file operations"
   homepage "https://github.com/noon-commander/noon-commander"
-
+  # Homebrew allows no `url` in `on_arm` or `on_intel` blocks.
   if Hardware::CPU.intel?
-    url "https://github.com/noon-commander/noon-commander/releases/download/v0.1.0/noon-commander-0.1.0-x86_64-apple-darwin.tar.gz"
-    sha256 "213681c75a043bc82fd5536b2e5169e6f223450e9eb3f02a8446db8eba1dd9ce"
+    url "https://github.com/noon-commander/noon-commander/releases/download/v0.2.0/noon-commander-0.2.0-x86_64-apple-darwin.tar.gz"
+    sha256 "519748d5e0a286dffce61f6dd8a57a64287d5ce9b2dde2ebf0640126364f6769"
   else
-    url "https://github.com/noon-commander/noon-commander/releases/download/v0.1.0/noon-commander-0.1.0-aarch64-apple-darwin.tar.gz"
-    sha256 "d3d1531f4157f8ae2011a8365c216516ead43b47acf34023b80d042795535259"
+    url "https://github.com/noon-commander/noon-commander/releases/download/v0.2.0/noon-commander-0.2.0-aarch64-apple-darwin.tar.gz"
+    sha256 "eaddb4f4fd62d0f6f563bb710af627314799319f337409957d069c75eb51e7b5"
   end
   license "GPL-3.0-or-later"
 

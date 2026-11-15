@@ -5,11 +5,11 @@ class NoonCommander < Formula
   homepage "https://github.com/noon-commander/noon-commander"
   # Homebrew allows no `url` in `on_arm` or `on_intel` blocks.
   if Hardware::CPU.intel?
-    url "https://github.com/noon-commander/noon-commander/releases/download/v0.3.1/noon-commander-0.3.1-x86_64-apple-darwin.tar.gz"
-    sha256 "e74f86c38ceabbdc2f3c6cadf4dba705e3269746f890e4c2b68927ed1ba8e36b"
+    url "https://github.com/noon-commander/noon-commander/releases/download/v0.3.2/noon-commander-0.3.2-x86_64-apple-darwin.tar.gz"
+    sha256 "cb4845e830643aa1b4c18476002f83b72f1bdb004a98613fa06c72d19b8c1190"
   else
-    url "https://github.com/noon-commander/noon-commander/releases/download/v0.3.1/noon-commander-0.3.1-aarch64-apple-darwin.tar.gz"
-    sha256 "b1fbd8f9f230c5eb57fd462ba5aa33bac92e88dfa2063c049dbab8259308f2c3"
+    url "https://github.com/noon-commander/noon-commander/releases/download/v0.3.2/noon-commander-0.3.2-aarch64-apple-darwin.tar.gz"
+    sha256 "42d8b132d2cd536adfe2756c19dcd371e7fca0caaf6e799c42411d70ed916d6b"
   end
   license "GPL-3.0-or-later"
 
